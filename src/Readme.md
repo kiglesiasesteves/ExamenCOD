@@ -47,7 +47,7 @@ git tag -a v1.0 -m "versión finalizada EXAMENCOD"
 
 Se descubrió que el archivo `.gitignore` no estaba incluido en el proyecto y que además estaba incompleto. Se completó el `.gitignore` y se agregó al commit etiquetado como v1.0 para garantizar que los archivos no deseados no se incluyan en futuras versiones.
 Por ello vamos a añadir el .gitignore posteriormente.
-git add .gitignore
+git add  .gitignore
 git commit --amend
 
 ### Paso 8: Push y Creación de la Release
