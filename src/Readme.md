@@ -43,9 +43,7 @@ git tag -a v1.0 -m "versión finalizada EXAMENCOD"
 ### Paso 7: Actualización del .gitignore
 
 Se descubrió que el archivo `.gitignore` no estaba incluido en el proyecto y que además estaba incompleto. Se completó el `.gitignore` y se agregó al commit etiquetado como v1.0 para garantizar que los archivos no deseados no se incluyan en futuras versiones.
-Por ello vamos a añadir el .gitignore posteriormente.
-git add .gitignore
-git commit --amend
+Por ello vamos a añadir el .gitignore posteriormente utilizando la herramienta ammend del IDE del intellij y usando el mismo commit merge.
 
 ### Paso 8: Push y Creación de la Release
 
